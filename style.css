@@ -1,29 +1,72 @@
 h1{
     text-align: center;
     color: tomato;
-    font-family: 'Courier New', monospace;
+    font-family: 'Garamond', serif;
+    margin-top: 20px;
 }
 h2{
     text-align: center;
     color: tomato;
-    font-family: 'Courier New', monospace;
+    font-family: 'Garamond', serif;
+    margin-top: 20px;
 }
 body{
-    font-family: monospace, Courier New;
-    margin: 20px;
-    padding: 20px;
+    font-family: 'Garamond', serif;
+    margin: 0;
+    padding: 0;
     background-color: blanchedalmond;
 }
 .intro{
+    max-width: 700px;
     font-size: 20px;
-    text-align: justify;
-    margin: 20px;}
+    text-align: center;
+    margin: 20px;
+    line-height: 1.6;
+    padding: 10px;
+    background-color: peachpuff;
+}
 img{
     object-fit: contain;
     padding: 30px;
-    width: 50%;}
+    width: 50%;
+}
 
 table{
-        font-family:'Courier New', monospace;
-        padding:20px;
-    }
+    font-family:'Garamond', serif;
+    margin: 10px auto 30px auto;
+    border-collapse: collapse;
+}
+
+header th{
+padding: 8px 16px;
+background-color:peachpuff;
+}
+
+header a{
+    text-decoration: none;
+    color:brown
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.quiz_container{
+    max-width: 60%;
+    margin: 20px auto;
+    background-color:peachpuff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.15);
+}
+
+.submit_button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reset_button{
+    text-align: center;
+    margin-top: 20px;
+}
+

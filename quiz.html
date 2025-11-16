@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz Time!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color:blanchedalmond;">
+        <header>
+            <h1 align="center"><u>Quiz Time!</u></h1>
+                <table border="1" align="center">
+                    <tr>
+                        <th width="100"><a href="index.html">Homepage</a></th>
+                        <th width="100"><a href="about.html">About</a></th>
+                        <th width="100"><a href="topic_page.html">Topic pages</a></th>
+                        <th width="100"><a href="Key_concepts.html">Key Concepts</a></th>
+                        <th width="100"><a href="references.html">References</a></th>
+                        <th width="100"><a href="quiz.html">Quiz Time!</a></th>
+                    </tr>
+                </table>
+        </header>
+        <div class = "quiz_container">
+       <p>1. What type of cookies store login credentials for a website?</p>
+       <label><input type="radio" name="q1" value="a: User Authentication Cookies">a: User Authentication Cookies</label><br>
+       <label><input type="radio" name="q1" value="b: Persistent Cookies">b: Persistent Cookies</label><br>
+       <label><input type="radio" name="q1" value="c: Chocolate Chip Cookies">c: Chocolate Chip Cookies</label><br>
+
+       <p>2. What type of cookies track a user from website to website?</p>
+         <label><input type="radio" name="q2" value="a: Session Cookies">a: Session Cookies</label><br>
+         <label><input type="radio" name="q2" value="b: First-Party Cookies">b: First-Party Cookies</label><br>
+         <label><input type="radio" name="q2" value="c: Persistent Cookies">c: Persistent Cookies</label><br>
+
+       <p>3. Which type of cookie is NOT assocaited with first party cookies?</p>
+            <label><input type="radio" name="q3" value="a: Language Preference Cookies">a: Language Preference Cookies</label><br>
+            <label><input type="radio" name="q3" value="b: Customer Profiling Cookies">b: Customer Profiling Cookies</label><br>
+            <label><input type="radio" name="q3" value="c: Shopping Cart Cookies">c: Shopping Cart Cookies</label><br>
+
+       <p>4. Cookies are _____ files that are stored on a user's browser.</p>
+            <input type="text" id="q4">
+            <br>
+
+       <p>5. Which of the follwing cookies are associated with third-party cookies?(More than one answer may apply)</p>
+            <label><input type="checkbox" name="q5" value="a: Behavioral advertising Cookies">a: Behavioral advertising Cookies</label><br>
+            <label><input type="checkbox" name="q5" value="b: Content personalization Cookies">b: Content personalization Cookies</label><br>
+            <label><input type="checkbox" name="q5" value="c: Website analytics Cookies">c: Website analytics Cookies</label><br>
+            <br>
+        <div class = "submit_button">
+        <button onclick="SubmitQuiz()">Submit Quiz</button><br>
+        </div>
+
+        <p id="result"></p>
+        <p id ="percent"></p>
+
+        <p id="answer_sheet"></p>
+        <div class = "reset_button">
+        <button id = "restart" style=" display:none" onclick="ResetQuiz()">Reset Quiz</button>
+        </div>
+        </div>
+
+        <script src="scipt.js"></script> 
+    </body> 
+     
+</html>
